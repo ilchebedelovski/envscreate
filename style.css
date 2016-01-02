@@ -1,0 +1,300 @@
+body {
+	font-family: Arial;
+	margin: 0;
+}
+
+html,body,.container {
+	height: 100%;
+}
+
+body>.container {
+	height: auto;
+	min-height: 100%;
+}
+
+.header {
+	background-color: #a7c68e;
+	color: white;
+	font-size: 28px;
+	font-weight: bold;
+	height: 46px;
+	padding-top: 13px;
+	text-align: center;
+	width: 100%;
+}
+
+.container-table {
+	margin: 0 auto;
+	text-align: center;
+	padding-bottom: 40px;
+	padding-top: 20px;
+}
+
+.children.versions {
+	padding-bottom: 30px;
+	padding-top: 10px;
+}
+
+.children.versions span {
+	color: #7fac5b;
+	font-size: 13px;
+	line-height: 20px;
+	font-style: italic;
+	padding-left: 4px;
+}
+
+.container {
+	background: #E8E8E8;
+}
+
+.container form {
+	margin-bottom: 0;
+}
+
+.footer {
+	text-align: center;
+	background: #a7c68e;
+	color: #fff;
+	font-size: 12px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	line-height: 35px;
+	clear: both;
+	position: relative;
+	z-index: 10;
+	height: 3em;
+	/*margin-top: -3em;*/
+}
+
+.container-table th {
+	color: #808080;
+	padding-bottom: 15px;
+	font-size: 14px;
+}
+
+#input-name {
+	border: 1px solid #b0b0b0;
+	background: #fff;
+	width: 100%;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	text-indent: 5px;
+	border-radius: 3px;
+}
+
+#input-email {
+	border: 1px solid #b0b0b0;
+	background: #fff;
+	width: 100%;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	text-indent: 5px;
+	border-radius: 3px;
+}
+
+#input-email.error {
+	background: #ffebef url("../img/icon-fail.png") no-repeat scroll right
+		center;
+	border: 1px solid red !important;
+}
+
+#input-name.error {
+	background: #ffebef url("../img/icon-fail.png") no-repeat scroll right
+		center;
+	border: 1px solid red !important;
+}
+
+.form-error {
+	color: red;
+	font-size: 13px;
+	line-height: 26px;
+	font-weight: bold;
+}
+
+.container-table td {
+	text-align: left;
+	width: 368px;
+}
+
+.container-table .row-left {
+	float: left;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 20px 0;
+	color: #4c4c4c;
+}
+
+.container-table .row-right {
+	font-size: 14px;
+	padding: 20px 0;
+	color: #4c4c4c
+}
+
+.button-insert {
+	background: #a7c68e;
+	color: #fff;
+	border: 1px solid #7fac5b;
+	font-weight: bold;
+	padding: 8px 0;
+	width: 50%;
+	text-transform: uppercase;
+	cursor: pointer;
+	margin-top: 20px;
+}
+
+.button-insert:HOVER {
+	background: #96b27f;
+}
+
+.row-right select {
+	border: 1px solid #b0b0b0;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	padding-top: 5px;
+	width: 20%;
+}
+
+.container-table .checkbox-child {
+	margin-left: 21px;
+}
+
+td.purpose {
+	text-align: center;
+	padding-bottom: 60px !important;
+}
+
+td.purpose span {
+	margin-right: 25px;
+	position: relative;
+	top: -1px;
+	margin-left: 3px;
+	font-weight: bold;
+	background: #a7c68e;
+	padding: 6px 8px;
+	color: #fff;
+}
+
+/***** Remove env. table ***********/
+.grid-table th {
+	background: #7fac5b;
+	color: #fff;
+	padding: 10px;
+	text-align: left;
+}
+
+.grid-table td {
+	padding: 10px 15px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#envs-grid {
+	min-height: 100px;
+	padding-bottom: 40px;
+}
+
+.grid-table {
+	margin: 0 auto;
+	/*border: 1px solid #cfcfcf;*/
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 100%;
+}
+
+.grid-table tr:nth-child(odd) {
+	background: #cfcfcf;
+}
+
+.grid-table tr:nth-child(odd) td {
+	/*color: #fff;*/
+	color: #4c4c4c;
+}
+
+.grid-table tr:nth-child(even) td {
+	color: #4c4c4c;
+}
+
+#remove-button {
+	background: url(../img/remove.png) no-repeat;
+	border: none;
+	text-indent: -999;
+	width: 24px;
+	height: 24px;
+	cursor: pointer;
+}
+
+.remove-action {
+	/*text-align: center;*/
+}
+.remove-action > input{
+	margin-left: 16%;
+}
+
+/***** Remove env. table **********/
+
+/**** Sucess page ************/
+.sucess-page {
+	background: #e8e8e8;
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+
+.notification-message {
+	padding-bottom: 13px;
+	padding-top: 13px;
+	font-size: 14px;
+	font-weight: bold;
+	color: #e64640;
+	background: #ffecec url('../img/error.png') no-repeat 10px 50%;
+	border: 1px solid #f5aca6;
+	margin: 0 auto 30px;
+	width: 52%;
+}
+
+.go-back-button a {
+	background: #a7c68e;
+	color: #fff;
+	border: 1px solid #7fac5b;
+	font-weight: bold;
+	padding: 8px 0;
+	display: block;
+	text-transform: uppercase;
+	cursor: pointer;
+	margin-top: 20px;
+	text-decoration: none;
+	font-size: 14px;
+	width: 10%;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.go-back-button a:HOVER {
+	background: #96b27f;
+}
+
+.sucess-page .message {
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.env-details {
+	font-weight: bold;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.domains {
+	color: #a7c68e;
+}
+.sub-domains{
+	text-align: left;
+	
+}
+
+.sub-domains a span{
+	font-size: 20px;
+	cursor: pointer;
+	margin-left: 22%;
+}
+/**** Success page *********/

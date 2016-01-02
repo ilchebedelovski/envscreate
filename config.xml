@@ -1,0 +1,15 @@
+<envsmanager>
+	<dbenvs>
+		<dbhost>192.168.1.102</dbhost>
+		<dbuser>root</dbuser>
+		<dbpass></dbpass>
+		<dbname>utl_envsmanager_1507161505</dbname>
+	</dbenvs>
+	<filesystemenvs>
+		<srcpath>/var/www/html/environments/manualenvsblank</srcpath>
+		<srcpathdemo>/var/www/html/environments/manualenvsblankdemo</srcpathdemo>
+	</filesystemenvs>
+	<apache>
+		<confpath>/etc/httpd/conf.d/</confpath>
+	</apache>
+</envsmanager>
